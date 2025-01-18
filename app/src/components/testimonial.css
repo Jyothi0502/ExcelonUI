@@ -1,0 +1,132 @@
+.testimonial {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  padding-left:150px;
+  text-align: center;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  
+}
+
+.testimonial-title {
+  font-size: 3.5rem;
+  font-weight: 400; 
+  margin-bottom: 60px;
+  text-align: left;
+  color: #000;
+  line-height: 1;
+  letter-spacing: 8px;
+  font-family: 'Neue Haas Grotesk Text Std';  
+}
+
+.testimonial-details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.testimonial-avatars {
+  display: flex;
+}
+
+.avatar {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #eee;
+}
+
+.testimonial-divider {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+  padding: 0px 100px 0px 50px;
+}
+
+.testimonial-quote {
+  text-align: left;
+  
+}
+
+.quote {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 500; 
+  color: black;
+  margin-bottom: 1px;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+.author {
+  display: flex;
+  font-size: 0.9rem;
+  font-weight: 500; 
+  color: #000;
+  letter-spacing: -0.2px;
+}
+@media screen and (max-width: 768px) {
+  .testimonial {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 20px; 
+      padding-right: 20px;
+      text-align: left;
+  }
+
+  .testimonial-title {
+      font-size: 1.7rem; 
+      letter-spacing: 2px; 
+      margin-bottom: 20px;
+      text-align: left;
+  }
+
+  .testimonial-details {
+      flex-direction: column;
+      text-align: left;
+      gap: 10px;
+      padding-left:0px; 
+      align-items: flex-start;
+  }
+
+  .testimonial-quote {
+      order: -1;
+      text-align: left; 
+      font-size: 1.1rem;
+      margin:0;
+  }
+
+  .quote {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 5px;
+      
+  }
+
+  .author {
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #000;
+      order: -1;
+  }
+
+  .testimonial-avatars {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      order: 1; 
+  }
+
+  .avatar {
+      width: 60px; 
+      height: 60px;
+  }
+
+  .testimonial-divider {
+      font-size:0px; 
+  }
+}
+

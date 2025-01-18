@@ -1,0 +1,161 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 50px 20px;
+  }
+  
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .hero-left {
+    flex: 1;
+  }
+  
+  .hero-left h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+    
+  }
+  
+  .hero-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  
+  .divider {
+    font-size: 2rem;
+    color: #000;
+    margin-top: 150px;
+  }
+  
+  .difference {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+  }
+  
+  .difference p {
+    font-size: 1.4rem; 
+    padding: 0px 90px  ;
+    margin-top: 170px;
+    text-align: left;
+    letter-spacing: 1.5px;
+    font-weight: 400; 
+    color: #000; }
+
+ 
+  .hero-image {
+    width: 100%;
+    max-width: 1400px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+ 
+  .hero-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+  }
+  
+  .hero-logos img {
+    height: 50px;
+    object-fit: contain;
+    filter: grayscale(100%); 
+  }
+.work-btn {
+  background-color: black; 
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 150px;
+  }
+  @media screen and (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        align-items: flex-start; 
+        text-align: left;
+        
+
+    }
+
+    .hero-left {
+        width: 100%; 
+        padding-left: 20px; 
+    }
+
+    .hero-left h1 {
+        font-size: 3rem;
+        padding-left: 0px;
+        font-weight: 400;
+    }
+
+    .divider {
+        color: white;
+        margin-top: 0px;
+
+    }
+
+    .difference {
+        margin-top: 0px;
+  
+    }
+
+    .difference p {
+        font-size: 1.2rem;
+        text-align: left;
+        margin-top: 10px;
+        padding-left:0px;
+    }
+
+    .hero-right {
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;  
+        padding-left: 20px; 
+    }
+
+    .hero-image {
+        max-width: 100%;
+    }
+    .hero-logos img {
+      height: 20px;
+      filter: grayscale(100%); 
+    }
+
+    .work-btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+        margin-top: 0px;
+    }
+}
+  
+  
+  
